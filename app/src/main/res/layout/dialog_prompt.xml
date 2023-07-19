@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/token_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Token" />
+
+    <EditText
+        android:id="@+id/base_url_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Base URL"
+        android:text="https://cloud.almostflip.com"
+        />
+
+</LinearLayout>
